@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/overview',
     name: 'overall',
     component: () => import('@/views/dashboard/dashboard_overall/Dashboard_overall.vue'),
   },
@@ -50,7 +50,7 @@ const routes = [
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
   },
   {
-    path: '/pages/login',
+    path: '/',
     name: 'pages-login',
     component: () => import('@/views/pages/Login.vue'),
     meta: {

@@ -137,7 +137,7 @@ export default {
       const { valid } = await this.$refs.form.validate()
 
       if (this.email && this.password) {
-        this.$router.push('/');
+        this.$router.push('/overview');
       }
     },
   }
